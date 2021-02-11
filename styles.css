@@ -8,16 +8,6 @@ body {
     text-align: center;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.left-side-header, .right-side-header {
-    width: 50%;
-}
-
 a {
     color: #643390;
 }
@@ -28,24 +18,25 @@ header {
     border: 3px solid black;
     background-color: #d5f3fd;
     width: 100%;
-    height: 150px;
+    height: auto;
     position: fixed;
     z-index: 1;
+    display: grid;
+    grid-template-areas: "logo nav";
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
 nav {
-    border: 1px solid #4a266a;
-    width: 50%;
-    flex-direction: row;
+    grid-area: nav;
 }
 
 nav span {
-    /* text-align: right; */
+    border: 1px solid black;
 }
 
 header img {
     border: 1px solid #4a266a;
     height: 150px;
-    /* padding-left: 10px; */
+    grid-area: logo;
 }
