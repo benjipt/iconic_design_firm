@@ -92,5 +92,7 @@ nav span {
 .about {
     padding-top: 150px;
     height: 600px;
-
+    background-image: url('images/pexels-simon-berger-1323550.jpg');
+    background-position: center;
+    background-size: cover;
 }
