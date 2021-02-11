@@ -27,16 +27,44 @@ header {
     align-items: center;
 }
 
-nav {
-    grid-area: nav;
-}
-
-nav span {
-    border: 1px solid black;
+.left-side-header {
+    display: grid;
+    grid-template-areas: "logo whitespace";
+    grid-template-columns: 1fr 3fr;
 }
 
 header img {
     border: 1px solid #4a266a;
     height: 150px;
     grid-area: logo;
+}
+
+nav {
+    border: 1px solid black;
+    height: 100%;
+    grid-area: nav;
+    display: grid;
+    grid-template-areas: "about products team";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav span {
+    border: 1px solid black;
+    height: 100%;
+}
+
+#about {
+    grid-area: about;
+}
+
+#products {
+    grid-area: products;
+}
+
+#team {
+    grid-area: team;
+}
+
+nav span {
+    border: 1px solid black;
 }
