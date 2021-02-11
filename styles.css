@@ -1,12 +1,35 @@
 /* Universal Styles */
 
 body {
+    margin: 0;
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Header */
 
 header {
-    border: 1px solid black;
+    border: 3px solid black;
+    background-color: #d5f3fd;
+    width: 100%;
+    height: 125px;
+}
+
+nav {
+    border: 1px solid #4a266a;
+}
+
+header img {
+    border: 1px solid #4a266a;
+    height: 115px;
+    width: auto;
 }
