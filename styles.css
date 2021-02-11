@@ -40,17 +40,22 @@ header img {
 }
 
 nav {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
     grid-area: nav;
     display: grid;
     grid-template-areas: "about products team";
     grid-template-columns: 1fr 1fr 1fr;
+    vertical-align: middle;
 }
 
 nav span {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
+}
+nav span a {
+    /* border: 1px solid black; */
+    text-decoration: none;
 }
 
 #about {
@@ -67,4 +72,25 @@ nav span {
 
 nav span {
     border: 1px solid black;
+}
+
+/* About Section */
+
+.flex-container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.text-container {
+    margin: 80px auto;
+    width: 50%;
+}
+
+.about {
+    padding-top: 150px;
+    height: 600px;
+
 }
