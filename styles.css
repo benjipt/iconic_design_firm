@@ -1,0 +1,12 @@
+/* Universal Styles */
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+
+/* Header */
+
+header {
+    border: 1px solid black;
+}
