@@ -98,7 +98,7 @@ nav span {
     background-size: cover;
 }
 
-/* Portfolio Section */
+/* Portfolio Section & Team Section */
 
 .grid-container {
     display: grid;
@@ -128,6 +128,18 @@ nav span {
 }
 
 .three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: one;
+}
+
+.five {
+    grid-area: two;
+}
+
+.six {
     grid-area: three;
 }
 
