@@ -99,9 +99,6 @@ nav span {
 }
 
 /* Portfolio Section */
-.portfolio {
-    min-height: 600px;
-}
 
 .grid-container {
     display: grid;
