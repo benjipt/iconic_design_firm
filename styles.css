@@ -77,7 +77,7 @@ nav span {
 /* About Section */
 
 .flex-container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-content: center;
@@ -98,4 +98,36 @@ nav span {
 }
 
 /* Portfolio Section */
+.portfolio {
+    min-height: 600px;
+}
 
+.grid-container {
+    display: grid;
+    min-height: auto;
+    margin: auto;
+    grid-template-areas: "one two three";
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+}
+
+.items {
+    margin: 5px 5%;
+    border: 1px solid black;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
