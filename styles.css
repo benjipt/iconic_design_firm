@@ -6,6 +6,7 @@ body {
     font-size: 16px;
     color: black;
     text-align: center;
+    background-color: #9d5ea7;
 }
 
 a {
@@ -15,7 +16,7 @@ a {
 /* Header */
 
 header {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     background-color: #d5f3fd;
     width: 100%;
     height: auto;
@@ -34,7 +35,7 @@ header {
 }
 
 header img {
-    border: 1px solid #4a266a;
+    /* border: 1px solid #4a266a; */
     height: 150px;
     grid-area: logo;
 }
@@ -71,7 +72,7 @@ nav span a {
 }
 
 nav span {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* About Section */
@@ -112,8 +113,9 @@ nav span {
 }
 
 .items {
-    margin: 5px 5%;
-    border: 1px solid black;
+    margin: 10px 2%;
+    padding: 20px;
+    /* border: 1px solid #d5f3fd; */
 }
 
 .item img {
@@ -130,4 +132,11 @@ nav span {
 
 .three {
     grid-area: three;
+}
+
+@media (max-width: 650px) {
+    
+    .grid-container {
+        display: block;
+    }
 }
