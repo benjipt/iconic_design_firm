@@ -7,7 +7,8 @@
 * [Launch](#launch)
 
 ## General info
-_Company Home Page project from Codecademy.com | in Full-Stack Engineer Pro Path_
+Company Home Page project from Codecademy.com | in Full-Stack Engineer Pro Path
+
 For practice with responsive web design, css flexbox & grid.
 
 ## Technologies
