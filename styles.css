@@ -48,6 +48,9 @@ nav {
     grid-template-areas: "about products team";
     grid-template-columns: 1fr 1fr 1fr;
     vertical-align: middle;
+    top: 3rem;
+    position: relative;
+    font-size: 2em;
 }
 
 nav span {
